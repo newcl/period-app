@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B746A0CED85A1310EEFF70B /* MenstrualRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48132AA29FB74A22716CBC9 /* MenstrualRecord.swift */; };
+		2DD3173C5A81B8ABE7E16142 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1029D6D092F56E988CC0C86 /* UserSettings.swift */; };
+		587CC17172422EF610DCCFA3 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877D4A8A327E93744426C316 /* PersistenceService.swift */; };
+		07BA1EEE42007F76432A429E /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D0A5CE41D66727C95447F9 /* NotificationService.swift */; };
+		B4F6F51169581D5CD724F5B0 /* RecordStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DDE63B1A45982973B1F30E /* RecordStore.swift */; };
+		2B6F326CDB91FFC9F3E47A0F /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A64ECD3F5A9153FD1A70C0D /* SettingsStore.swift */; };
+		556CDF69F4C738CBD0734E32 /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBCF261B92B67CD285418F8 /* AppContainer.swift */; };
+		69405A5573A23533A8B96E97 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B493BC95D70FE0CD2A3D20 /* HomeViewModel.swift */; };
+		89AEB4CCC07FE942D6991875 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9533F7A68416F1982FE2EA77 /* HistoryViewModel.swift */; };
+		272EA35951449AED14B859B3 /* StatisticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCBC533EBD637F0140D8C6 /* StatisticsViewModel.swift */; };
+		B9C008D6E022FE357D1007E3 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11123C0E415B43344A2BFD9B /* SettingsViewModel.swift */; };
+		148B5A4CC31E2316AF8335C4 /* MainCircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0748B2C8FF95806291065A9 /* MainCircleButton.swift */; };
+		A4220482E9DCD1DB0A22BBEE /* RecordRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BC348F4A58DD6EDBA98324 /* RecordRowView.swift */; };
+		BC78FF0DC5F0C978BBDEAB56 /* EditRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D990E5BEF5E9D5647F8A07C9 /* EditRecordView.swift */; };
+		FE46FCDD9A2322963BFD4AB8 /* CycleBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AD9C29C4936BB9A3618059 /* CycleBarChart.swift */; };
+		28D86C2328F61FC4FC519EAC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CE55FC3046B096BDDF6596 /* HomeView.swift */; };
+		5BA1D35D986FAB9180F49B95 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA7912C9BED6FDBDA01598E /* HistoryView.swift */; };
+		D0A0BC38AB17B69AC807C180 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4655F39658E97450E065D71 /* StatisticsView.swift */; };
+		5B7B4020BA8803EB04E29407 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3852F6E8DA25E1FA75F704 /* SettingsView.swift */; };
+		28F020CC41CE1DB6C0078E36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6431A3659F1AA354E768C9AA /* ContentView.swift */; };
+		A35734B634349574C0CADA7C /* PeriodAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DF8094FE5C289E29F12ECA /* PeriodAppApp.swift */; };
+		C84F5C89792C9E66AE6AAB36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 712AB3C082D81C4B17ACB485 /* Assets.xcassets */; };
+		B18B8C84AE8F737048E6CAFB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B83A5080415D7D841F41506A /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7BCCADA3021C07D12E775CB5 /* PeriodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeriodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A48132AA29FB74A22716CBC9 /* MenstrualRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenstrualRecord.swift; sourceTree = "<group>"; };
+		C1029D6D092F56E988CC0C86 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		877D4A8A327E93744426C316 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		E8D0A5CE41D66727C95447F9 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		88DDE63B1A45982973B1F30E /* RecordStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordStore.swift; sourceTree = "<group>"; };
+		3A64ECD3F5A9153FD1A70C0D /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		FEBCF261B92B67CD285418F8 /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
+		63B493BC95D70FE0CD2A3D20 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		9533F7A68416F1982FE2EA77 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		4CDCBC533EBD637F0140D8C6 /* StatisticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewModel.swift; sourceTree = "<group>"; };
+		11123C0E415B43344A2BFD9B /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		E0748B2C8FF95806291065A9 /* MainCircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCircleButton.swift; sourceTree = "<group>"; };
+		44BC348F4A58DD6EDBA98324 /* RecordRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordRowView.swift; sourceTree = "<group>"; };
+		D990E5BEF5E9D5647F8A07C9 /* EditRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRecordView.swift; sourceTree = "<group>"; };
+		99AD9C29C4936BB9A3618059 /* CycleBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleBarChart.swift; sourceTree = "<group>"; };
+		37CE55FC3046B096BDDF6596 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6EA7912C9BED6FDBDA01598E /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		A4655F39658E97450E065D71 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		0F3852F6E8DA25E1FA75F704 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6431A3659F1AA354E768C9AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		61DF8094FE5C289E29F12ECA /* PeriodAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodAppApp.swift; sourceTree = "<group>"; };
+		712AB3C082D81C4B17ACB485 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B83A5080415D7D841F41506A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29B2D46AA747A59804D46E1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5928955287B8089ED2177128 = {
+			isa = PBXGroup;
+			children = (
+				9A51DF3B2765257C4A1A9782 /* PeriodApp */,
+				BF7A2D27A78D590BDEF15AF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF7A2D27A78D590BDEF15AF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BCCADA3021C07D12E775CB5 /* PeriodApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA608C0B22E7B6F9B389BDDD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A48132AA29FB74A22716CBC9 /* MenstrualRecord.swift */,
+				C1029D6D092F56E988CC0C86 /* UserSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F84A245AF71330C7463B0083 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				88DDE63B1A45982973B1F30E /* RecordStore.swift */,
+				3A64ECD3F5A9153FD1A70C0D /* SettingsStore.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		95DF61116CBC7317336DBE03 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				877D4A8A327E93744426C316 /* PersistenceService.swift */,
+				E8D0A5CE41D66727C95447F9 /* NotificationService.swift */,
+				FEBCF261B92B67CD285418F8 /* AppContainer.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E3EEF78AC67933824D83D3B4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				63B493BC95D70FE0CD2A3D20 /* HomeViewModel.swift */,
+				9533F7A68416F1982FE2EA77 /* HistoryViewModel.swift */,
+				4CDCBC533EBD637F0140D8C6 /* StatisticsViewModel.swift */,
+				11123C0E415B43344A2BFD9B /* SettingsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		508B330CCDE923938D8FFB64 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E0748B2C8FF95806291065A9 /* MainCircleButton.swift */,
+				44BC348F4A58DD6EDBA98324 /* RecordRowView.swift */,
+				D990E5BEF5E9D5647F8A07C9 /* EditRecordView.swift */,
+				99AD9C29C4936BB9A3618059 /* CycleBarChart.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		78EF4B0EA3FDA2A792BCF074 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				37CE55FC3046B096BDDF6596 /* HomeView.swift */,
+				6EA7912C9BED6FDBDA01598E /* HistoryView.swift */,
+				A4655F39658E97450E065D71 /* StatisticsView.swift */,
+				0F3852F6E8DA25E1FA75F704 /* SettingsView.swift */,
+				508B330CCDE923938D8FFB64 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A51DF3B2765257C4A1A9782 /* PeriodApp */ = {
+			isa = PBXGroup;
+			children = (
+				6431A3659F1AA354E768C9AA /* ContentView.swift */,
+				61DF8094FE5C289E29F12ECA /* PeriodAppApp.swift */,
+				712AB3C082D81C4B17ACB485 /* Assets.xcassets */,
+				B83A5080415D7D841F41506A /* Info.plist */,
+				CA608C0B22E7B6F9B389BDDD /* Models */,
+				F84A245AF71330C7463B0083 /* Stores */,
+				95DF61116CBC7317336DBE03 /* Services */,
+				E3EEF78AC67933824D83D3B4 /* ViewModels */,
+				78EF4B0EA3FDA2A792BCF074 /* Views */,
+			);
+			path = PeriodApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AEFBAE01D2DFD981F7DA7D /* PeriodApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16B36AFD00302EC1CB39BFDE /* Build configuration list for PBXNativeTarget "PeriodApp" */;
+			buildPhases = (
+				E7209FB05162B7572F88D05E /* Sources */,
+				29B2D46AA747A59804D46E1F /* Frameworks */,
+				66F8606E9F0A136E2228EBCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeriodApp;
+			packageProductDependencies = (
+			);
+			productName = PeriodApp;
+			productReference = 7BCCADA3021C07D12E775CB5 /* PeriodApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					42AEFBAE01D2DFD981F7DA7D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = E9898A0EB58D6691901DFE9F /* Build configuration list for PBXProject "PeriodApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5928955287B8089ED2177128;
+			productRefGroup = BF7A2D27A78D590BDEF15AF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AEFBAE01D2DFD981F7DA7D /* PeriodApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66F8606E9F0A136E2228EBCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84F5C89792C9E66AE6AAB36 /* Assets.xcassets in Resources */,
+				B18B8C84AE8F737048E6CAFB /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7209FB05162B7572F88D05E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B746A0CED85A1310EEFF70B /* MenstrualRecord.swift in Sources */,
+				2DD3173C5A81B8ABE7E16142 /* UserSettings.swift in Sources */,
+				587CC17172422EF610DCCFA3 /* PersistenceService.swift in Sources */,
+				07BA1EEE42007F76432A429E /* NotificationService.swift in Sources */,
+				B4F6F51169581D5CD724F5B0 /* RecordStore.swift in Sources */,
+				2B6F326CDB91FFC9F3E47A0F /* SettingsStore.swift in Sources */,
+				556CDF69F4C738CBD0734E32 /* AppContainer.swift in Sources */,
+				69405A5573A23533A8B96E97 /* HomeViewModel.swift in Sources */,
+				89AEB4CCC07FE942D6991875 /* HistoryViewModel.swift in Sources */,
+				272EA35951449AED14B859B3 /* StatisticsViewModel.swift in Sources */,
+				B9C008D6E022FE357D1007E3 /* SettingsViewModel.swift in Sources */,
+				148B5A4CC31E2316AF8335C4 /* MainCircleButton.swift in Sources */,
+				A4220482E9DCD1DB0A22BBEE /* RecordRowView.swift in Sources */,
+				BC78FF0DC5F0C978BBDEAB56 /* EditRecordView.swift in Sources */,
+				FE46FCDD9A2322963BFD4AB8 /* CycleBarChart.swift in Sources */,
+				28D86C2328F61FC4FC519EAC /* HomeView.swift in Sources */,
+				5BA1D35D986FAB9180F49B95 /* HistoryView.swift in Sources */,
+				D0A0BC38AB17B69AC807C180 /* StatisticsView.swift in Sources */,
+				5B7B4020BA8803EB04E29407 /* SettingsView.swift in Sources */,
+				28F020CC41CE1DB6C0078E36 /* ContentView.swift in Sources */,
+				A35734B634349574C0CADA7C /* PeriodAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F74568265A956002014F5B29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf-with-dsym;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9542E6F72F38AA9C9455B34E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf-with-dsym;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				ENABLE_NS_ASSERTIONS = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCC7287AFB24F1E973AE07DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PeriodApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.PeriodApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA0A1A479C1A82190E6CBBC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PeriodApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.PeriodApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9898A0EB58D6691901DFE9F /* Build configuration list for PBXProject "PeriodApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74568265A956002014F5B29 /* Debug */,
+				9542E6F72F38AA9C9455B34E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16B36AFD00302EC1CB39BFDE /* Build configuration list for PBXNativeTarget "PeriodApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC7287AFB24F1E973AE07DA /* Debug */,
+				DA0A1A479C1A82190E6CBBC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}
