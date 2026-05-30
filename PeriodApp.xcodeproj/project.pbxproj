@@ -29,7 +29,6 @@
 		28F020CC41CE1DB6C0078E36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6431A3659F1AA354E768C9AA /* ContentView.swift */; };
 		A35734B634349574C0CADA7C /* PeriodAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DF8094FE5C289E29F12ECA /* PeriodAppApp.swift */; };
 		C84F5C89792C9E66AE6AAB36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 712AB3C082D81C4B17ACB485 /* Assets.xcassets */; };
-		B18B8C84AE8F737048E6CAFB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B83A5080415D7D841F41506A /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -225,7 +224,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C84F5C89792C9E66AE6AAB36 /* Assets.xcassets in Resources */,
-				B18B8C84AE8F737048E6CAFB /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
